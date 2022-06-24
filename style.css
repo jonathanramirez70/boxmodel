@@ -1,0 +1,47 @@
+.bandera{
+	width: 150px;
+	height: 100px;
+	background-color: white;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 1fr 1fr;
+	grid-template-areas: "area1 area2" "area3 area4";
+	grid-gap: 10px;
+}
+
+.bandera > div {
+	background-color: red;
+}
+
+.bloque{
+	width: 150px;
+	height: 150px;
+	background-color: black;
+	display: grid;
+	grid-gap: 10px;
+}
+.bloque div{
+	background-color: brown;
+}
+.bloque .area1{
+	grid-area: 1 / 1 / 1 / 3;
+}
+.bloque .area2{
+	grid-area: 1 / 3 / 1 / 5;
+}
+.bloque .area3{
+	grid-area: 2 / 1 / 2 / 2;
+}
+.bloque .area4{
+	grid-area: 2 / 2 / 2 / 4;
+}
+.bloque .area5{
+	grid-area: 2 / 4 / 2 / 5;
+}
+.bloque .area6{
+	grid-area: 3 / 1 / 3 / 3;
+}
+
+.bloque .area7{
+	grid-area: 3 / 3 / 3 / 5;
+}
